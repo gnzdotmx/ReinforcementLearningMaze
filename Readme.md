@@ -2,7 +2,7 @@
 ## Docker
 Pull the base docker image
 ```
-git clone 
+git clone https://github.com/gnzdotmx/ReinforcementLearningMaze.git
 ```
 
 Build and run the image. 
