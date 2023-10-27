@@ -1,0 +1,9 @@
+version: '3'
+services:
+    ir:
+        volumes:
+            - ./data:/home/jovyan/data
+        build: .
+        working_dir: /home/jovyan/data
+        ports:
+            - "8888:8888"
